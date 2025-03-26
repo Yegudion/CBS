@@ -91,7 +91,9 @@ DATABASES = {
         'NAME': 'cks',
         'USER': 'root',
         'PASSWORD': 'root',
+        #'HOST': 'localhost',
         'HOST': 'pgdb',
+        #'HOST': 'postgres_container',
         'PORT': '5432',
     }
 }
